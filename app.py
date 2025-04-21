@@ -416,3 +416,4 @@ def Menu():
     else:
         print("Thank you visit again")
 Menu()
+@app.route('/')
