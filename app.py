@@ -6,6 +6,7 @@ import numpy as np
 from datetime import date
 import time
 app = Flask(__name__)
+@app.route('/')
 #                       Sales Analysis Sales Graph
 def Sales_Graph():
         ans='Y'
@@ -416,4 +417,4 @@ def Menu():
     else:
         print("Thank you visit again")
 Menu()
-@app.route('/')
+
