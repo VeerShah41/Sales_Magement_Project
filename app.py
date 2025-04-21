@@ -1,11 +1,11 @@
-from flask import Flask
-import numpy as np
+from flask import Flask, Response
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
-from datetime import date
-import time
+import io
+import base64
+
 app = Flask(__name__)
+
 @app.route('/')
 #                       Sales Analysis Sales Graph
 def Sales_Graph():
