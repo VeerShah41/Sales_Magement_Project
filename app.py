@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
